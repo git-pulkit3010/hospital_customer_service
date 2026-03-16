@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "description": "Semantic Cache Store for POC",
+    "cache_version": "1.0",
+    "hit_rate_target": ">95% for top 20 FAQs",
+    "invalidation_policy": "24-hour refresh for high-volume entries"
+  },
+  "cache_entries": [
+    {
+      "query_embedding_hash": "emb_hash_001",
+      "original_query": "What are the visiting hours?",
+      "cached_response": "Visiting hours are 10:00 AM to 12:00 PM and 4:00 PM to 7:00 PM daily. Only 2 visitors are allowed per patient at a time.",
+      "hit_count": 145,
+      "last_accessed": "2025-01-15T09:15:23",
+      "created_at": "2025-01-10T08:00:00",
+      "kb_version": "1.0"
+    },
+    {
+      "query_embedding_hash": "emb_hash_002",
+      "original_query": "Where is the billing counter?",
+      "cached_response": "The billing counter is located on the Ground Floor, near the main entrance. It is open 24/7 for emergency billing.",
+      "hit_count": 98,
+      "last_accessed": "2025-01-15T09:22:01",
+      "created_at": "2025-01-10T08:00:00",
+      "kb_version": "1.0"
+    },
+    {
+      "query_embedding_hash": "emb_hash_003",
+      "original_query": "How do I reschedule my appointment?",
+      "cached_response": "To reschedule an appointment, please call 1800-123-4567 or visit the reception desk. Rescheduling must be done at least 24 hours before the scheduled time.",
+      "hit_count": 67,
+      "last_accessed": "2025-01-15T08:45:12",
+      "created_at": "2025-01-10T08:00:00",
+      "kb_version": "1.0"
+    },
+    {
+      "query_embedding_hash": "emb_hash_004",
+      "original_query": "Is emergency available 24/7?",
+      "cached_response": "Yes, Emergency Services are available 24/7 at Gate 1. Ambulance services can be reached at 108 or our hospital number 040-1234-5678.",
+      "hit_count": 203,
+      "last_accessed": "2025-01-15T09:30:45",
+      "created_at": "2025-01-10T08:00:00",
+      "kb_version": "1.0"
+    },
+    {
+      "query_embedding_hash": "emb_hash_005",
+      "original_query": "What documents are needed for insurance?",
+      "cached_response": "For insurance claims, please carry: (1) Valid ID Proof, (2) Insurance Policy Card, (3) Doctor's Prescription, (4) Previous Medical Records.",
+      "hit_count": 54,
+      "last_accessed": "2025-01-15T07:20:33",
+      "created_at": "2025-01-10T08:00:00",
+      "kb_version": "1.0"
+    }
+  ],
+  "statistics": {
+    "total_entries": 5,
+    "total_hits": 567,
+    "cache_hit_rate": "73%",
+    "avg_latency_saved_ms": 750,
+    "estimated_cost_savings": "₹2,340 per month"
+  }
+}

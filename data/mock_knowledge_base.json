@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "description": "Hospital FAQ Knowledge Base for RAG",
+    "version": "1.0",
+    "last_updated": "2025-01-15",
+    "compliance": "All information verified by Hospital Administration",
+    "region": "India"
+  },
+  "categories": {
+    "visiting_hours": {
+      "category_id": "FAQ-001",
+      "questions": [
+        "What are the visiting hours?",
+        "When can I meet the patient?",
+        "Visiting time schedule"
+      ],
+      "answer": "Visiting hours are 10:00 AM to 12:00 PM and 4:00 PM to 7:00 PM daily. Only 2 visitors are allowed per patient at a time. Please carry a valid ID proof.",
+      "tags": ["visiting", "hours", "timing", "meeting"]
+    },
+    "billing_counter": {
+      "category_id": "FAQ-002",
+      "questions": [
+        "Where is the billing counter?",
+        "Billing section location",
+        "Where do I pay the bill?"
+      ],
+      "answer": "The billing counter is located on the Ground Floor, near the main entrance. It is open 24/7 for emergency billing. Regular hours: 8:00 AM to 8:00 PM.",
+      "tags": ["billing", "payment", "counter", "location"]
+    },
+    "emergency_services": {
+      "category_id": "FAQ-003",
+      "questions": [
+        "Is emergency available 24/7?",
+        "Emergency services timing",
+        "Casualty department hours"
+      ],
+      "answer": "Yes, Emergency Services are available 24/7 at Gate 1. Ambulance services can be reached at 108 or our hospital number 040-1234-5678.",
+      "tags": ["emergency", "24/7", "casualty", "ambulance"]
+    },
+    "appointment_reschedule": {
+      "category_id": "FAQ-004",
+      "questions": [
+        "How do I reschedule my appointment?",
+        "Change appointment date",
+        "Cancel and rebook appointment"
+      ],
+      "answer": "To reschedule an appointment, please call 1800-123-4567 or visit the reception desk. Rescheduling must be done at least 24 hours before the scheduled time to avoid charges.",
+      "tags": ["appointment", "reschedule", "cancel", "rebook"]
+    },
+    "insurance_claims": {
+      "category_id": "FAQ-005",
+      "questions": [
+        "What documents are needed for insurance?",
+        "Insurance claim process",
+        "Cashless treatment documents"
+      ],
+      "answer": "For insurance claims, please carry: (1) Valid ID Proof, (2) Insurance Policy Card, (3) Doctor's Prescription, (4) Previous Medical Records. Cashless approval takes 2-4 hours.",
+      "tags": ["insurance", "claims", "documents", "cashless"]
+    },
+    "report_collection": {
+      "category_id": "FAQ-006",
+      "questions": [
+        "How do I collect my lab report?",
+        "Report pickup timing",
+        "When will my test results be ready?"
+      ],
+      "answer": "Lab reports are available within 24-48 hours. You can collect them from the Reception Desk (Ground Floor) or download from our patient portal. Bring your UHID card for collection.",
+      "tags": ["report", "lab", "test", "results", "collection"]
+    },
+    "parking_facility": {
+      "category_id": "FAQ-007",
+      "questions": [
+        "Is parking available?",
+        "Parking charges",
+        "Where can I park my vehicle?"
+      ],
+      "answer": "Yes, we have a multi-level parking facility. Charges: ₹50 for 2-wheeler, ₹100 for 4-wheeler (first 4 hours). Free parking for emergency cases.",
+      "tags": ["parking", "vehicle", "charges", "facility"]
+    },
+    "pharmacy_hours": {
+      "category_id": "FAQ-008",
+      "questions": [
+        "Is the pharmacy open 24/7?",
+        "Where is the hospital pharmacy?",
+        "Medicine shop timing"
+      ],
+      "answer": "The hospital pharmacy is located on the Ground Floor and is open 24/7. We also have an external pharmacy near Gate 2 open from 8:00 AM to 10:00 PM.",
+      "tags": ["pharmacy", "medicine", "timing", "hours"]
+    },
+    "dietary_services": {
+      "category_id": "FAQ-009",
+      "questions": [
+        "Can I bring outside food?",
+        "Hospital food service",
+        "Diet for patients"
+      ],
+      "answer": "Outside food is allowed but should be homemade and hygienic. The hospital provides dietary meals for admitted patients as per doctor's prescription. Cafeteria is open 7:00 AM to 9:00 PM.",
+      "tags": ["food", "diet", "outside", "cafeteria"]
+    },
+    "visitor_pass": {
+      "category_id": "FAQ-010",
+      "questions": [
+        "Do I need a visitor pass?",
+        "How to get entry pass?",
+        "Visitor registration"
+      ],
+      "answer": "Yes, all visitors must register at the security desk and obtain a visitor pass. Please carry a valid government ID (Aadhaar, Driving License, etc.).",
+      "tags": ["visitor", "pass", "entry", "registration", "ID"]
+    },
+    "wheelchair_service": {
+      "category_id": "FAQ-011",
+      "questions": [
+        "Is wheelchair available?",
+        "Wheelchair rental",
+        "Mobility assistance"
+      ],
+      "answer": "Wheelchairs are available free of charge at the main entrance. Please deposit a refundable amount of ₹500 or leave your ID card. Return within 2 hours.",
+      "tags": ["wheelchair", "mobility", "assistance", "rental"]
+    },
+    "discharge_process": {
+      "category_id": "FAQ-012",
+      "questions": [
+        "What is the discharge procedure?",
+        "How long does discharge take?",
+        "Discharge summary"
+      ],
+      "answer": "Discharge process takes 2-3 hours after doctor's approval. You need to clear all bills at the billing counter and collect discharge summary, prescriptions, and reports from the nursing station.",
+      "tags": ["discharge", "procedure", "summary", "billing"]
+    },
+    "second_opinion": {
+      "category_id": "FAQ-013",
+      "questions": [
+        "Can I get a second opinion?",
+        "Second opinion appointment",
+        "Consult another doctor"
+      ],
+      "answer": "Yes, second opinion consultations are available. Please book an appointment through our helpline 1800-123-4567. Bring all previous medical records and reports.",
+      "tags": ["second opinion", "consultation", "doctor"]
+    },
+    "health_checkup": {
+      "category_id": "FAQ-014",
+      "questions": [
+        "Do you offer health checkup packages?",
+        "Full body checkup cost",
+        "Preventive health screening"
+      ],
+      "answer": "Yes, we offer comprehensive health checkup packages starting from ₹1,500. Packages include basic, standard, and premium options. Call 1800-123-4567 for booking.",
+      "tags": ["checkup", "package", "screening", "preventive"]
+    },
+    "vaccination_services": {
+      "category_id": "FAQ-015",
+      "questions": [
+        "Do you provide vaccination?",
+        "Vaccine availability",
+        "Immunization services"
+      ],
+      "answer": "Yes, vaccination services are available for children and adults. Timings: Monday to Saturday, 9:00 AM to 5:00 PM. No appointment needed for routine vaccines.",
+      "tags": ["vaccination", "vaccine", "immunization", "injection"]
+    },
+    "ambulance_service": {
+      "category_id": "FAQ-016",
+      "questions": [
+        "How to book an ambulance?",
+        "Ambulance charges",
+        "Emergency transport"
+      ],
+      "answer": "Ambulance can be booked by calling 108 (government) or 040-1234-5678 (hospital). Charges: ₹500 within city limits, ₹10/km beyond. ICU ambulance available for critical patients.",
+      "tags": ["ambulance", "transport", "emergency", "booking"]
+    },
+    "online_consultation": {
+      "category_id": "FAQ-017",
+      "questions": [
+        "Do you have online consultation?",
+        "Telemedicine service",
+        "Video call with doctor"
+      ],
+      "answer": "Yes, online consultation is available through our patient portal and mobile app. Charges: ₹300 for general consultation, ₹500 for specialist. Available 9:00 AM to 6:00 PM.",
+      "tags": ["online", "telemedicine", "video", "consultation"]
+    },
+    "medical_records": {
+      "category_id": "FAQ-018",
+      "questions": [
+        "How to get old medical records?",
+        "Request past reports",
+        "Medical history copy"
+      ],
+      "answer": "To request old medical records, submit a written application at the Medical Records Department (1st Floor). Processing time: 3-5 working days. Fee: ₹100 per page.",
+      "tags": ["records", "history", "reports", "documents"]
+    },
+    "complaint_feedback": {
+      "category_id": "FAQ-019",
+      "questions": [
+        "Where do I file a complaint?",
+        "Feedback mechanism",
+        "Patient grievance"
+      ],
+      "answer": "Complaints can be filed at the Patient Relations Desk (Ground Floor) or via email at feedback@hospital.com. We respond within 48 hours. Helpline: 1800-123-4567.",
+      "tags": ["complaint", "feedback", "grievance", "relations"]
+    },
+    "covid_protocol": {
+      "category_id": "FAQ-020",
+      "questions": [
+        "What are the COVID safety measures?",
+        "Mask mandatory?",
+        "COVID testing available?"
+      ],
+      "answer": "Masks are recommended in clinical areas. RT-PCR testing is available from 8:00 AM to 6:00 PM (Report in 24 hours). Rapid Antigen Test available 24/7 (Report in 1 hour).",
+      "tags": ["covid", "mask", "testing", "safety", "protocol"]
+    }
+  }
+}
